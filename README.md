@@ -11,6 +11,20 @@ Port of [fibonacci-deno](https://github.com/UltiRequiem/fibonacci-deno) for
 
 ## Usage
 
+This package exposes two Functions,
+[fibonacci](https://github.com/UltiRequiem/fibora/blob/main/src/lib.rs#L1)
+and
+[fibonacci_sequence](https://github.com/UltiRequiem/fibora/blob/main/src/lib.rs#L19).
+
+```rust
+use fibora::{fibonacci, fibonacci_sequence};
+
+fn main() {
+    println!("{}", fibonacci(23));
+    println!("{:?}", fibonacci_sequence(23));
+}
+```
+
 ### CLI Tool
 
 This project contains a cli tool, it is made to give an example of use mainly.

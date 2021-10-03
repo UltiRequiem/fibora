@@ -1,4 +1,4 @@
-mod fibora;
+mod lib;
 use clap::{clap_app, ArgMatches};
 
 fn get_arguments() -> ArgMatches {
@@ -25,12 +25,22 @@ fn main() {
     }
 
     if matches.is_present("NUMBER") {
-        let number = matches.value_of("NUMBER").unwrap().to_string().parse::<usize>().unwrap();
-        println!("{}", fibora::fibonacci(number));
+        let number = matches
+            .value_of("NUMBER")
+            .unwrap()
+            .to_string()
+            .parse::<usize>()
+            .unwrap();
+        println!("{}", lib::fibonacci(number));
     }
 
     if matches.is_present("SEQUENCE") {
-        let sequence = matches.value_of("SEQUENCE").unwrap().to_string().parse::<usize>().unwrap();
-        println!("{:?}", fibora::fibonacci_sequence(sequence));
+        let sequence = matches
+            .value_of("SEQUENCE")
+            .unwrap()
+            .to_string()
+            .parse::<usize>()
+            .unwrap();
+        println!("{:?}", lib::fibonacci_sequence(sequence));
     }
 }

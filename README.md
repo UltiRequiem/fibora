@@ -32,7 +32,7 @@ This project contains a cli tool, it is made to give an example of use mainly.
 #### Install it
 
 ```bash
-cargo install fibora
+cargo install fibora --features=binaries
 ```
 
 #### Usage

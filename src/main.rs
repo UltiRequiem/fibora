@@ -5,7 +5,7 @@ fn get_arguments() -> ArgMatches {
     clap_app!(fibora =>
         (version: "1.0.0")
         (author: "UltiRequiem <eliaz.bobadilladev@gmail.com>")
-        (about: "Fibonnaci Utilities for CLI.")
+        (about: "Fibonacci Utilities for CLI.")
         (license: "MIT OR Apache-2.0")
         (@arg NUMBER: -n --number [NUMBER] "Print the Nth Fibonacci Number")
         (@arg SEQUENCE: -s --sequence [SEQUENCE] "Print an array with the first N numbers in the Fibonacci sequence")

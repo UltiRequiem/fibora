@@ -1,4 +1,5 @@
 on:
+  workflow_dispatch:
   release:
     types: [created]
 
@@ -24,3 +25,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RUSTTARGET: ${{ matrix.target }}
           ARCHIVE_TYPES: ${{ matrix.archive }}
+          SRC_DIR: "crates/fibora"

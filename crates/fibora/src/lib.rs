@@ -1,3 +1,5 @@
+//! Utilities to work with the fibonacci sequence.
+
 pub fn fibonacci(n: usize) -> Vec<f64> {
     let mut x = vec![1.0, 1.0];
 

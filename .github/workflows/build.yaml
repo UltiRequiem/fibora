@@ -1,3 +1,5 @@
+name: Build binaries
+
 on:
   workflow_dispatch:
   release:
@@ -18,7 +20,7 @@ jobs:
           - target: x86_64-apple-darwin
             archive: zip
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@3
       - name: Compile and release
         uses: rust-build/rust-build.action@latest
         env:

@@ -1,0 +1,15 @@
+[package]
+name = "fibora"
+version = "1.2.0"
+edition = "2021"
+authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
+license = "MIT"
+description = "Fibonnaci Utilities and CLI Tool."
+readme = "readme.md"
+homepage = "https://github.com/UltiRequiem/fibora"
+repository = "https://github.com/UltiRequiem/fibora"
+keywords = ["cli", "fibonnaci"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "3.1.8", features = ["derive"] }

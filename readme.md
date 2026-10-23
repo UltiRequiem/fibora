@@ -60,7 +60,7 @@ participated in this project ✨
 
 ## Related
 
-I also made a [JavaScript](https://github.com/UltiRequiem/fibonacci-deno) and
+I also made a [JavaScript](https://www.npmjs.com/package/@ultirequiem/fibonacci) and
 [Go](https://github.com/UltiRequiem/fibonacci) version 🆙
 
 ## Licence

@@ -12,4 +12,4 @@ keywords = ["cli", "fibonnaci"]
 categories = ["command-line-utilities"]
 
 [dependencies]
-clap = { version = "3.1.8", features = ["derive"] }
+clap = { version = "4.6.7", features = ["derive"] }
